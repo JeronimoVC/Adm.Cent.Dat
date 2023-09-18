@@ -1,0 +1,30 @@
+.inicio{
+--opacidad-negro: 0.5;
+background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/fondo3.webp");
+background-position: center;
+background-size: cover;
+height:30rem;  
+}
+.a{
+    .card{
+            width: 18rem;
+            border-radius: 10px;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+}
+.b{
+    .card{
+        width: 18rem;
+        border-radius: 40px;
+    }
+    .card-title{
+    font-size: 2rem;
+    }
+}
+
+
+
+
+
