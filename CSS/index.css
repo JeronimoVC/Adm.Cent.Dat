@@ -24,6 +24,12 @@ height:30rem;
     }
 }
 
+/* Mueve el contenido hacia la derecha */
+.navbar-nav ms-auto mb-2 mb-lg-0{
+    margin-left: 100px; /* Ajusta la cantidad de desplazamiento hacia la derecha que desees */
+}
+
+
 
 
 
