@@ -1,7 +1,7 @@
 var nav=document.querySelector('nav');
     window.addEventListener('scroll', function(){
        if(window.pageYOffset > 50){
-        nav.style.backgroundColor = 'rgba(255, 0, 0, 0.8)';
+        nav.style.backgroundColor = 'rgba(0, 255, 247, 0.8)'; 
         nav.classList.add('shadow');
        }else{
         nav.style.backgroundColor = 'transparent';
@@ -9,6 +9,14 @@ var nav=document.querySelector('nav');
        }
     })
 
+    /*----------------Multiple text-------------------------*/ 
+const typed = new Typed('.multiple-text',{
+  strings:['Frontend', 'Marketing Digital', 'SEO', 'KPI', 'Róbotica'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true
+});
 /*--------------------------AOS--------------------------*/
 AOS.init({
   easing: 'ease-out-back',
